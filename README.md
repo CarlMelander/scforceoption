@@ -1,17 +1,15 @@
 # SCForceOption
 
-This powershell script is designed to retrieve the status of the "SCForceOption" Registry Key Value for a list of windows machines provided in a csv file.
-It reads the information from the registry and reports back the current status of the key value.
+This powershell script is designed to retrieve the status of the "SCForceOption" Registry Key Value for a list of windows machines provided in a csv file. It reads the information from the registry and reports back the current status of the key value.
 
 # Arguments
 
-( -i ) provides the current status information, then exports this to SCForceSummary.csv
-( -e ) enables scforceoption on all computers in the input file hostname.csv
-( -d ) disables scforceoption on all computers in the input file hostname.csv
+- ( -i ) provides the current status information, then exports this to SCForceSummary.csv
+- ( -e ) enables scforceoption on all computers in the input file hostname.csv
+- ( -d ) disables scforceoption on all computers in the input file hostname.csv
 
 # Formatting the input file
-The input file "hostname.csv" must only include a list of computer names, without any headers or additional information. 
-It is essential to ensure that the file is properly formatted as a “CSV” to avoid errors during the query process.
+The input file "hostname.csv" must only include a list of computer names, without any headers or additional information. It is essential to ensure that the file is properly formatted as a “CSV” to avoid errors during the query process.
 
 # Running the script
 
